@@ -1,75 +1,84 @@
-# Nuxt 3 Minimal Starter
+<p style="text-align: center">
+  <img style="width: 900px" src="Nuxtwind Daisy Banner.jpg"/>
+</p>
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<h1 align="center">Nuxtwind Daisy 🟢💨🌼</h1>
+<p style="text-align: center">
+Nuxtwind Daisy is a starter template for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.
+</p>
 
-## Setup
+- [Showcase](#showcase)
+- [Getting Started Guide](#getting-started-guide)
 
-Make sure to install the dependencies:
+# Showcase
 
-```bash
-# npm
-npm install
+Brag your modified version from this template. 💪
 
-# pnpm
-pnpm install
+- [jofftiquez.dev](https://jofftiquez.dev) 
 
-# yarn
-yarn install
+# Getting Started Guide
 
-# bun
-bun install
-```
+## Installation
 
-## Development Server
+Nope. No installation needed.
 
-Start the development server on `http://localhost:3000`:
+## Fork
 
-```bash
-# npm
-npm run dev
+Fork this repository to your own GitHub account.
 
-# pnpm
-pnpm run dev
+<img width="800" src="fork.png">
 
-# yarn
-yarn dev
+Make it yours. Rename it. Change the description. Hit Create fork.
 
-# bun
-bun run dev
-```
+<img width="800" src="make-it-yours.png">
 
-## Production
+## Make changes
 
-Build the application for production:
+I will assume that you already know the basic of nuxt.js. If not, you can check out their [documentation](https://nuxt.com/docs/getting-started/introduction).
 
-```bash
-# npm
-npm run build
+Now that it's yours, you can make changes to it. Be creative you can start by removing the contents in the `pages/index.vue`. Feel free to utilize the `GenericPanel.vue` component as it adds a nice balance to the layout.
 
-# pnpm
-pnpm run build
+## Preview
 
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
+You can preview your build by running the `nuxt start` command.
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+# Preview your build
+$ nuxt start
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Build
+
+You can choose to build it using the defaul strategy which is SSR, but you also have the option to generate static files so you can just upload your work in any static hosting service. The sample site of this repo is hosted in Vercel.
+
+
+```bash
+# Build for production using SSR
+$ nuxt build
+```
+
+```bash
+# Build for production and generate static files
+$ nuxt generate
+```
+
+## Deploy
+
+You can deploy your work in any static hosting service.
+
+Here's a list of static hosting services that you can use:
+
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+- [Firebase](https://firebase.google.com/)
+- [Surge](https://surge.sh/)
+- [Render](https://render.com/)
+- [GitHub Pages](https://pages.github.com/)
+- [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/)
+- [AWS Amplify](https://aws.amazon.com/amplify/)
+- [Cloudflare Pages](https://pages.cloudflare.com/)
+- [Begin](https://begin.com/)
+- [Fast.io](https://fast.io/)
+- [Fly](https://fly.io/)
+- [Deta](https://www.deta.sh/)
+- [Aerobatic](https://www.aerobatic.com/)
